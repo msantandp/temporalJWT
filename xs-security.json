@@ -1,0 +1,14 @@
+{
+  "xsappname": "temporal", "tenant-mode": "dedicated",
+  "scopes": [
+    { "name": "$XSAPPNAME.admin", "description": "admin" }
+  ],
+  "role-templates": [
+    { "name": "admin", "scope-references": [ "$XSAPPNAME.admin" ], "description": "generated" }
+  ],
+  "oauth2-configuration": {
+    "redirect-uris": [
+    "https://workspaces-ws-wnrvs-app1.eu10.applicationstudio.cloud.sap/"
+  ]
+}
+}
