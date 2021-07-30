@@ -7,8 +7,10 @@
     { "name": "admin", "scope-references": [ "$XSAPPNAME.admin" ], "description": "generated" }
   ],
   "oauth2-configuration": {
-    "redirect-uris": [
-    "https://workspaces-ws-wnrvs-app1.eu10.applicationstudio.cloud.sap/"
-  ]
-}
+        "redirect-uris": [
+    "https://*.applicationstudio.cloud.sap/**",
+    "https://*.eu10.hana.ondemand.com/**",
+    "https://oauth.pstmn.io/v1/callback",
+    "https://cockpit.eu10.hana.ondemand.com/cockpit/**"]
+    }
 }
